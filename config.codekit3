@@ -15,6 +15,18 @@
 		"oAP": "\/functions.php",
 		"oF": 0
 		},
+	"\/page-recipes.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/page-recipes.php",
+		"oF": 0
+		},
+	"\/partials\/blog-single-layout.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/blog-single-layout.php",
+		"oF": 0
+		},
 	"\/rtl.css": {
 		"aP": 1,
 		"bl": 0,
@@ -46,6 +58,12 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/single-recipe.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/single-recipe.php",
+		"oF": 0
+		},
 	"\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -75,7 +93,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -1405,7 +1423,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http:\/\/tb-dev\/",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

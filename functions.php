@@ -17,3 +17,16 @@ function theme_enqueue_styles() {
 
 
 add_image_size( 'recipe-thumb', 400, 400, true ); 
+
+// Adds classes for custom post types to body_class() and post_class()
+function fb_add_body_class( $class ) {
+	$post_type = 'recipe'; // the Post Type
+
+	if ( get_query_var('post_type') === $post_type ) { // only, if post type is active
+		$class[] = $post_type;
+		$class[] = 'type-' . $post_type;
+	}
+
+	return $class;
+}
+add_filter( 'body_class', 'fb_add_body_class' );

@@ -5,4 +5,15 @@ Author:         Design by MGC
 Template:       Total
 
 */
+.recipe-grid { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.recipe-grid .recipe-card { -ms-flex-preferred-size: 30%; flex-basis: 30%; }
+
+.recipe-grid .recipe-card .recipe-card-title { font-size: 16px; font-weight: bold; }
+
+.recipe h1.recipe-title { font-size: 34px; font-family: 'Alegreya Sans', 'Open Sans', Arial, Helvetica, sans-serif; color: #FD2616; }
+
+.recipe h2 { font-size: 20px; margin-bottom: 5px; }
+
+.recipe h3 { color: #356515; margin-bottom: 0; margin-top: 10px; }
 /*# sourceMappingURL=style.css.map */
